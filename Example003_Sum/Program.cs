@@ -1,4 +1,5 @@
-﻿int numA = new Random().Next(1,10);
+﻿//         new Random().Next(min,max); генератор случайных чискл
+int numA = new Random().Next(1,10);
 Console.WriteLine(numA);
 int numB = new Random().Next(1,10);
 Console.WriteLine(numB);
