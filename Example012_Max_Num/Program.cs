@@ -1,9 +1,14 @@
 ﻿Console.WriteLine("Введите первое число");
 int numA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите первое число");
+Console.WriteLine("Введите второе число");
 int numB = Convert.ToInt32(Console.ReadLine());
 int max = numA;
+int min = 1; 
 if(numA > max) max = numA;
 if(numB > max) max = numB;
+if(max ==numA) min = numB;
+if(max == numB) min = numA;
 Console.Write("Максимальное число:");
 Console.WriteLine(max);
+Console.Write("Минимальное число:");
+Console.WriteLine(min);
