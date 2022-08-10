@@ -4,5 +4,5 @@ int current = 2;
 while (current <= num)
 {
     Console.WriteLine (current);
-    current+=2;
+    current += 2;
 }
