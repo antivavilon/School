@@ -6,5 +6,5 @@ if (num % 2 == 0)
 }
 else
 {
-    Console.Write(num + " это нечетное число"); 
+    Console.Write(num + " это нечетное число" ); 
 }
