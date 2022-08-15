@@ -14,7 +14,5 @@ if(firstDigit > max) max = firstDigit;
     {
     min = firstDigit;
     }
- Console.Write($"Минимальное число: ");
- System.Console.WriteLine(min);
-  Console.Write("Максимальное число: ");
- System.Console.WriteLine(max);
+ Console.WriteLine($"Максимальная цыфра в числе {num} это {max}");
+ Console.Write($"Минимальная цыфра в числе {num} это {min}");
