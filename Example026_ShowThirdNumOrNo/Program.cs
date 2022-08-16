@@ -6,11 +6,9 @@ Console.WriteLine(num);
 string numString = num.ToString();
 if (num / 100 == 0 )
 {
-  Console.WriteLine($"У числа {num} нет третьей цифры ");  
+   Console.WriteLine($"У числа {num} нет третьей цифры ");  
 }
 else
 {
-
-Console.WriteLine ($"У числа {num} третья цыфра это {numString[2]}");
-
+   Console.WriteLine ($"У числа {num} третья цыфра это {numString[2]}");
 }
