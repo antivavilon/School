@@ -13,5 +13,4 @@ else
 
 Console.WriteLine ($"У числа {num} третья цыфра это {numString[2]}");
 
-
 }
