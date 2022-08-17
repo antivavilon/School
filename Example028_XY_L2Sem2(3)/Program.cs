@@ -3,6 +3,8 @@
 //(X и Y),причем x не = 0, y не = 0 и выдает номер четверти плоскости,
 // в которй находится эта точка
 
+
+
 Console.WriteLine("Введите координату по оси x:");
 int x = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату по оси y:");
