@@ -17,5 +17,6 @@ Console.WriteLine("Введите координату y точки B" );
 int yb = Convert.ToInt32(Console.ReadLine());
 //int inter = ((7 - 1)*(7 - 1)) + ((-5 - (-1))*(-5 - (-1)));
 //int inter = ((3 - 2)*(3 - 2)) + ((6 - 1)*(6 - 1));
+
 double result = Math.Sqrt((Math.Pow(xa - xb,2)) + (Math.Pow(ya - yb,2)));;
 Console.WriteLine($"Длинна отрезка:{Math.Round(result,3)}");
