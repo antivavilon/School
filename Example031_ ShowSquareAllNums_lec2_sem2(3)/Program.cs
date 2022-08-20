@@ -10,6 +10,7 @@
   //  digit++;
 //}
 
+
 //Решение с помощью цикла for
 Console.WriteLine("Ведите число от 1 до 10");
 int N =Convert.ToInt32(Console.ReadLine());
