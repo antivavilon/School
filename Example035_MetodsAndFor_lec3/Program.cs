@@ -16,8 +16,9 @@ void Method2(string msg)
 }
 Method2("Spring");
 
-// 2_1 Метод с аргументом "строка" и "счетчик".
 
+
+// 2_1 Метод с аргументом "строка" и "счетчик".
 
 void Method2_1(string msg, int count)
 {
@@ -30,6 +31,9 @@ void Method2_1(string msg, int count)
 }
 
 Method2_1("Spring ", 35);
+
+
+
 // 3 Метод без аргументов, но он возвращает данные.
 
 int Method3()
@@ -39,6 +43,8 @@ int Method3()
 
 int year = Method();
 Console.WriteLine(year);
+
+
 
 // 4 Метод принимает аргументы и возвращающий данные.(Внутри цикл while)
  string Method4(int count, string text)
@@ -54,6 +60,7 @@ Console.WriteLine(year);
     }
     string e = Method4(56, "E");
     Console.WriteLine(e);
+
 
 
     // 4_1 Метод принимает аргументы и возвращающий данные. (Внутри цикл for)
@@ -73,6 +80,7 @@ Console.WriteLine(year);
 
     string c = Method4_1(111,"SUN");
     Console.WriteLine(c);
+
 
 
  // Пример цикла for в цикле for.
