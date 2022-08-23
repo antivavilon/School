@@ -10,14 +10,11 @@
 //{
 //  result = result * i ;
 //Console.WriteLine(result);
-
 //}
 //Console.WriteLine(result);
 
 
-
-
-
+// Альтернативный вид решения через метод (от Михаила) 
  Console.WriteLine("Введите число");
 int digit = Convert.ToInt32(Console.ReadLine());
 
@@ -30,6 +27,6 @@ int GetMultiplay (int num)
     result = result *i;
     return result;
 }
-//int a = GetMultiplay (digit);
+//int a = GetMultiplay (digit); // Альтернативный вариант вывода
 
   Console.WriteLine($"{GetMultiplay (digit)}");   
