@@ -11,6 +11,8 @@
 //}
 //Console.WriteLine(result);
 
+
+
 //Решение задачи с помощбю метода.
 Console.WriteLine("Введите числа А");
  int A = Convert.ToInt32(Console.ReadLine());
