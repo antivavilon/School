@@ -9,8 +9,7 @@
  //   int a = digit % 10;
 //     sum = sum + a;
 //    digit = digit /10;
-    
-//}
+    //}
 //Console.WriteLine(sum);
 
 
