@@ -1,5 +1,6 @@
-﻿int[]CreatArray(int size)
+﻿//Задача 29. Напишите программу, которая задает массив из 8 элементов и выводит их на экран.
 
+int[]CreatArray(int size)
 {
 int[] result = new int[size];
 for (int i = 0; i < size; i++)
