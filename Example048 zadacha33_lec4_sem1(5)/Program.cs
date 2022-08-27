@@ -39,4 +39,6 @@ if (count == 0)  Console.WriteLine("Такого числа в массиве н
    // Console.WriteLine($"Заданное число:{digit}");
 }
 
+
+
 CheckNum(test, 3);
