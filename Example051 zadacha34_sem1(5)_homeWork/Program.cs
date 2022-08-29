@@ -17,6 +17,9 @@
   if(count == 1) Console.WriteLine($"В этом массиве {count} четнoe число ");
   if(count <= 4 && count > 1 ) Console.WriteLine($"В этом массиве {count} четных числа ");
   if(count > 4) Console.WriteLine($"В этом массиве {count} четных чисел ");
+  
+  
+  
   //Второй вариант решения(метод).
 
 //  int getCount(int[]array)
