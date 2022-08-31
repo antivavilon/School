@@ -5,15 +5,12 @@ int lustNum = Convert.ToInt32(Console.ReadLine());
 int firstFib = 0;
 int secondFib = 1;
  int thirdFib =0;
- string res = String.Empty  ;
-string resPrint= String.Empty;
+string resultString= String.Empty;
 while (firstFib + secondFib <  lustNum)
  {
       thirdFib = firstFib + secondFib ;
-      res =($"{(thirdFib)} ");
     firstFib = secondFib;
     secondFib = thirdFib;
-     resPrint = resPrint + res; 
+     resultString = resultString + ($"{thirdFib} ");
 }
-
-Console.Write($"Все числа фибоначи до числа {lustNum} это: {resPrint}");
+Console.Write($"Все числа фибоначи до числа {lustNum} это: {resultString}");
