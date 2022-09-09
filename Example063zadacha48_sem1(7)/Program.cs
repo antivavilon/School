@@ -15,6 +15,7 @@
 
 int[,] test = GetArray(3, 9);
 
+
 void PrintArray(int[,] arr)
 {
     for (int k = 0; k < arr.GetLength(0); k++)
