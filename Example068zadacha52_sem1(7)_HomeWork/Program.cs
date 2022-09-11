@@ -27,7 +27,7 @@ void PrintArray(int[,] array)                       // Метод выводит
         }
         Console.WriteLine();
     }
-Console.WriteLine();
+    Console.WriteLine();
 }
 PrintArray(test);
 
@@ -46,19 +46,19 @@ void ColumnMiddleNum(int[,] matrix)                    // Метод, вчисл
 
             for (int j = 0; j < matrix.GetLength(1); j++)
             {
-            if (j == count) sum  = sum + matrix [i, j] ;
+                if (j == count) sum = sum + matrix[i, j];
             }
 
         }
-        middleNum = sum  / columnSize;
-        
-        Console.Write( $"{Math.Round(middleNum, 2)}    ");
+        middleNum = sum / columnSize;
+
+        Console.Write($"{Math.Round(middleNum, 2)}    ");
         count++;
         sum = 0;
     }
-    
+
 };
 
 
- ColumnMiddleNum(test);
+ColumnMiddleNum(test);
 //System.Console.WriteLine(nums);
